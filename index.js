@@ -11,6 +11,11 @@ app.get("/api", (req, res) => {
     res.json({ mensagem: "Bem-vindo à minha API!" });
 });
 
+// Home
+app.get("/", (req, res) => {
+    res.json({ mensagem: "Bem-vindo à home da API!" });
+});
+
 // Rota com parâmetro
 app.get("/api/usuario/:id", (req, res) => {
     const { id } = req.params;
