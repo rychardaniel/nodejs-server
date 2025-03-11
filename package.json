@@ -1,10 +1,10 @@
 {
     "name": "nodejs-server",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "src/server.js",
     "type": "module",
     "scripts": {
-        "start": "node index.js"
+        "start": "node src/server.js"
     },
     "keywords": [],
     "author": "",
