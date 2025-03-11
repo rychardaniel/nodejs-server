@@ -13,7 +13,7 @@ app.get("/api", (req, res) => {
 
 // Home
 app.get("/", (req, res) => {
-    res.json({ mensagem: "Bem-vindo à home da API!" });
+    res.json({ mensagem: "Bem-vindo à home da API" });
 });
 
 // Rota com parâmetro
